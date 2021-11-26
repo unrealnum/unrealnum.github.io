@@ -1,106 +1,565 @@
-<!DOCTYPE HTML>
 <html>
-	<head>
-		<title>这是一个个人知识学习及分享网站！</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+    <head>
+        <meta char set="UTF-8">
+        <title></title>
+        <style>
+            .bg{
+                position: absolute;
+                top:0;
+                left:0;
+                z-index: -1;
+                zoom:0.52;
+            }
+        </style>
+        <style>
+            .geek{
+                top: 70;
+                left:250;
+                position: absolute;
+                margin-top: 500px;
+                margin-left: 1500px;
+                zoom: 0.3;
+                z-index: 10;
+                width: 100%;
+                height: 100%;
+            }
+                .img{
+                    cursor: pointer;
+                    transition: all 0.6s;
+                }
+                .img:hover{
+                    transform: scale(1.05);
+                }
+                *{margin: 0;padding: 0;}
+     .nav{
+         height: 200px;
+         left:150px;
+         width: 100%;
+         zoom:0.7;
+         background:url(images/nav.png);
+         background-repeat: no-repeat;
+         position: fixed;
+         top: 70px;
+         z-index: 100;
+     } 
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-
-							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><strong>知识分享与学习</strong> by unrealnum</a>
-								</header>
-
-							<!-- Content -->
-								<section>
-									<header class="main">
-										<h1>中转园地</h1>
-									</header>
-
-									<span class="image main"><img src="images/pic11.png" alt="" /></span>
-									<hr class="major">
-									<h2>数学</h2>
-									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数学是一个很有意思的领域，通过一系列的描述来刻画整个世界，而对于描述和描述之间可以相兼容的，则形成一个更大的体系。坦白来说这十分令人兴奋。或许数学的真正意义在于解决“矛盾是什么？”这个问题吧。</p>
-									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以下是一些我的个人学习资料，以及一些不错的网站</p>
-
-									<hr class="major" />
-
-									<h2>物理</h2>
-									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;物理是数学的实际化应用。没有物理的数学，不是好的物理，而没有数学的物理，不是一个好的数学。二者没有优先等级之分，自古以来物理学家和数学学家为了争一个高低吵得有来有回。但其实在我看来，两者所做的事情其实并没有什么差别。都是在进行描述世界的行为，只不过一个喜欢用手用操作来描述世界，一个喜欢用笔和纸来描述世界。</p>
-									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;整个物理学知识体系是十分令人兴奋的，当然其中还存在一些很难处理的矛盾，但处理这些矛盾就是物理学进化的根源的所在。</p>
-									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以下是个人的一些学习笔记以及一些不错的网站。</p>
-
-									<hr class="major" />
-
-									<h2>计算机</h2>
-									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人认为计算机是人类进化的必然性选择。他的根本基于数学和物理，他的发展向着人类不可预知的领域。同样的这是一个令人激动的学科，而我现在正扎根于这个学科之上进行学习。</p>
-									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以下是个人的学习资料和一些不错的网站。</p>
-									<a href="https://github.com/unrealnum/404_no_found/tree/master/markdown%E5%AD%A6%E4%B9%A0"><font color=blue>markdown学习笔记（新思路geek作业1）</font></a><br>
-									<a href="https://github.com/unrealnum/404_no_found/tree/master/git_learning"><font color=blue>git学习笔记（新思路geek作业2）</font></a>><br>
-									<a href="https://github.com/unrealnum/404_no_found/tree/master/html%2C%20CSS%2C%20Javascript"><font color=blue>HTML/CSS/JavaScript学习笔记（新思路geek作业3）</font></a><br>
-									<a href="https://github.com/unrealnum/404_no_found/tree/master/%E4%BE%8B%E4%BC%9A%E8%AE%B0%E5%BD%95"><font color=blue>新思路例会总结</font></a><br>
-									<a href="https://github.com/unrealnum/404_no_found/tree/master/%E4%B8%80%E5%91%A8%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0%E5%B0%8F%E7%BB%93"><font color=blue></font></a>
-
-									<hr class="major" />
-
-									<h2>游戏相关</h2>
-									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你喜欢打游戏吗？游戏其实本质上和工作并没有什么区别。其实稍微仔细想想就可以发现了。不过它还是一如既往的引人兴奋。游戏是一个连接知识和实践的领域。同样也是人类智力开发的动力之一。</p>
-									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以下是一些游戏攻略及个人总结。</p>
-
-									<hr class="major">
-									<h2>自媒体</h2>
-									<p>在这个时代经营自己已经不算是一种创新，而算是一种日常操作。特别是对于程序员而言，要度过35岁的中年危机，经营自己是必要的。因为如此与自媒体相关的知识也是不可或缺的。</p>
-									<p></p>
-
-									<hr class="major">
-									<h2>文学</h2>
-									<p>这是一种人类情感的抒发，但不同的概念在不同的维度中发生碰撞就会迸发出灵感的火花，从而奏出曲曲美妙旋律。那是一种很难描述的感觉。也是灵感的来源。</p>
-									<p></p>
-
-								</section>
-
-						</div>
-					</div>
-
-				<!-- Sidebar -->
-					<div id="sidebar">
-						<div class="inner">
-
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
-
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="generic.html">中转园地</a></li>
-									</ul>
-								</nav>
-
-						</div>
-					</div>
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-	</body>
+        </style>
+        <style>
+            .aboutus{
+                position: fixed;
+                top: 115px;
+                left:460px;
+                z-index:1000;
+                zoom:0.6;
+            }
+            .introdu{
+                position:fixed;
+                top:110px;
+                left:740px;
+                z-index: 1000;
+                zoom:0.6;
+            }
+            .newthread{
+                position: fixed;
+                top: 100px;
+                left: 1120px;
+                z-index: 1000;
+                zoom:0.6;
+            }
+            .QA{
+                position:fixed;
+                top:105px;
+                left: 1650px;
+                z-index:1000;
+                zoom:0.6;
+            }
+            .contactus_nav{
+                position: fixed;
+                top:115px;
+                left:1940px;
+                z-index: 1000;
+                zoom:0.6;
+            }
+        </style>
+        <style>
+            .intro{
+                position:absolute;
+                top: 3100px;
+                left:0px;
+                z-index: 0;
+                zoom:0.315;
+            }
+            .开发程序员{
+                position: absolute;
+                left: 2850px;
+                top:4400px;
+                zoom: 0.3;
+            }
+            .内容{
+                position: absolute;
+                font-size: 76px;
+                font-family: 方正姚体;
+                top:1230px;
+                left:230px;
+            }
+            .内容1{
+                position: absolute;
+                font-size:40px;
+                font-family: sans-serif;
+                color:skyblue;
+                top:1350;
+                left:200;
+            }
+            .内容2{
+                position: absolute;
+                font-size: 40px;
+                font-family: 方正姚体;
+                top:1550px;
+                left:100;
+            }
+            .产品设计{
+                position: absolute;
+                left:150px;
+                top:8700;
+                zoom:0.3;
+            }
+            .内容3{
+                position: absolute;
+                font-size: 76px;
+                font-family: 方正姚体;
+                top:2400;
+                left:800;
+            }
+            .内容4{
+                position: absolute;
+                font-size:40px;
+                font-family: sans-serif;
+                color:purple;
+                top:2600;
+                left:800;
+            }
+            .内容5{
+                position: absolute;
+                font-size: 40px;
+                font-family: 方正姚体;
+                top:2750px;
+                left:800;
+            }
+            .AI{
+                position: absolute;
+                left:2400px;
+                top:13000;
+                zoom:0.3;
+            }
+            .内容6{
+                position: absolute;
+                font-size: 76px;
+                font-family: 方正姚体;
+                top:3770px;
+                left:230px;
+            }
+            .内容7{
+                position: absolute;
+                font-size:40px;
+                font-family: 方正姚体;
+                color:skyblue;
+                top:3900;
+                left:200;
+            }
+            .内容8{
+                position: absolute;
+                font-size: 40px;
+                font-family: 方正姚体;
+                top:4000px;
+                left:200;
+            }
+            .sacurity{
+                position: absolute;
+                left:150px;
+                top:17300;
+                zoom:0.3;
+            }
+            .内容9{
+                position: absolute;
+                font-size: 76px;
+                font-family: 方正姚体;
+                top:4950;
+                left:800;
+            }
+            .内容10{
+                position: absolute;
+                font-size:40px;
+                font-family: sans-serif;
+                color:lightblue;
+                top:5080;
+                left:800;
+            }
+            .内容11{
+                position: absolute;
+                font-size: 40px;
+                font-family: 方正姚体;
+                top:5300px;
+                left:800;
+            }
+            .unity{
+                position: absolute;
+                left:1900px;
+                top:16000;
+                zoom:0.4;
+            }
+            .内容12{
+                position: absolute;
+                font-size: 76px;
+                font-family: 方正姚体;
+                top:6320px;
+                left:230px;
+            }
+            .内容13{
+                position: absolute;
+                font-size:40px;
+                font-family: sans-serif;
+                color:lightgreen;
+                top:6500;
+                left:200;
+            }
+            .内容14{
+                position: absolute;
+                font-size: 40px;
+                font-family: 方正姚体;
+                top:6650px;
+                left:100;
+            }
+            .about_us{
+                position: absolute;
+                top: 22000;
+                left: 30;
+                zoom:0.339;
+            }
+            .about_us_div{
+                position: absolute;
+                top: 9600;
+                left: 340;
+                zoom:0.8;
+            }
+            .about_us_bottom{
+                position: absolute;
+                top: 24500;
+                left: 30;
+                zoom: 0.339;
+            }
+            .about_us_insect{
+                position: absolute;
+                top: 8100;
+                left: 100;
+                zoom: 1;
+            }
+            .about_us_butterfly{
+                position:absolute;
+                top:23000;
+                left: 3700;
+                zoom: 0.339;
+            }
+            .about_us_title1{
+                position:absolute;
+                top:7880;
+                left: 358;
+                font-family: sans-serif;
+                font-size: 30;
+                color:gray;
+            }
+            .about_us_title2{
+                position: absolute;
+                top: 7880;
+                left: 715;
+                font-family: sans-serif;
+                font-size: 30;
+                color: gray;
+            }
+            .about_us_title3{
+                position:absolute;
+                top:7880;
+                left:1063;
+                font-family: sans-serif;
+                font-size: 30;
+                color: gray;
+            }
+            .about_us_content1{
+                position:absolute;
+                top:7930;
+                left:340;
+                font-family: 方正姚体;
+                font-size: 24;
+            }
+            .about_us_content2{
+                position:absolute;
+                top:7930;
+                left:677;
+                font-family: 方正姚体;
+                font-size: 24;
+            }
+            .about_us_content3{
+                position:absolute;
+                top:7930;
+                left:1014;
+                font-family: 方正姚体;
+                font-size: 24;
+            }
+            .contact_us_title{
+                position:absolute;
+                top:21200;
+                left:1250;
+                zoom: 0.4;
+            }
+            .contact_us_ltr{
+                position:absolute;
+                top:8600;
+                left:0;
+                zoom:1;
+            }
+            .contact_us_rtr{
+                position:absolute;
+                top: 43000;
+                left: 6800;
+                zoom:0.2;
+            }
+            .contact_us_leaf{
+                position:absolute;
+                top: 28300;
+                left: 1150;
+                zoom:0.3;
+            }
+            .contact_us_chameleon{
+                position:absolute;
+                top:28750;
+                left:1250;
+                zoom:0.3;
+            }
+            .contact_us_content{
+                position:absolute;
+                top:8700;
+                left:300;
+                font-family: 方正姚体;
+                font-size: 28;
+                color:limegreen;
+            }
+            .contact_us_QQ{
+                position:absolute;
+                top:9200;
+                left:500;
+                zoom:1;
+            }
+            .contact_us_email{
+                position:absolute;
+                top:9200;
+                left:800;
+                zoom:1;
+            }
+            .contact_us_github{
+                position:absolute;
+                top:9200;
+                left:1100;
+                zoom:1;
+            }
+            .more_question_bg{
+                position:absolute;
+                top:27000;
+                left:-100;
+                zoom:0.35;
+                z-index: -1;
+            }
+            .more_question_title{
+                position:absolute;
+                top:24000;
+                left:1100;
+                zoom:0.4;
+            }
+            .more_question_content{
+                position:absolute;
+                top:9800;
+                left:360;
+                font-size: 21;
+                font-family: 方正姚体;
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class ="bg"><img src="images/首页背景.png"></div>
+        <div class="geek"><a id="front"></a><div class="img"><img src="images/geek.png"></div></div>
+        <div class="nav"></div>
+        <div class="aboutus"><a href="#abus"><img src="images/aboutus.png"></a></div>
+        <div class="introdu"><a href="#introductions"><img src="images/introduction.png"></a></div>
+        <div class="newthread"><a href="#front"><img src="images/newthread.png"></a></div>
+        <div class="QA"><a href="#QAA"><img src="images/QA.png"></a></div>
+        <div class="contactus_nav"><a href="#connectus"><img src="images/contactus.png"></a></div>
+        <div class="intro"><a id="introductions"></a><img src="images/过渡1.png"></div>
+        <div class="开发程序员"><img src="images/程序猿.png"></div>
+        <div class="内容"><p>开发程序员</p></div>
+        <div class="内容1"><p>&nbsp;&nbsp;&nbsp;&nbsp;"Always,</p>&nbsp;&nbsp;&nbsp;&nbsp;stay hungery,</p><p>stay foolish."</p></div>
+        <div class="内容2">
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;前端：前端开发是创建Web或app视觉
+                <br>界面呈现给用户的过程通过HTML，CSS
+                <br>及JavaScript以及衍生出来的各种技术、
+                <br>框架、解决方案，实现互联网产品的
+                <br>用户界面交互。
+                <br>&nbsp;
+            </p>
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;后端：通常也称服务器端开发。不对
+                <br>用户显示,负责处理前端的请求，
+                <br>进行逻辑处理和数据交互。
+                <br>&nbsp;
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;客户端:  移动应用开发是为了小型、
+            <br>无线计算设备编写软件的流程和程序
+            <br>的集合，例如智能手机或平板电脑。
+            </p></div>
+        <div class="产品设计"><img src="images/产品&设计.png"></div>
+        <div class="内容3"><p>产品经理/UI设计<br>(PM/UI)</p></div>
+        <div class="内容4"><p>&nbsp;&nbsp;"好的软件的特征是,<br>明明没用过，但总觉得用过似的。"</p></div>
+        <div class="内容5">
+            <p> &nbsp;&nbsp;&nbsp;&nbsp;PM是针对某一项或是某一类的产品
+            <br>进行规划和管理的人员。</p>
+            <br>&nbsp;
+            <p> &nbsp;&nbsp;&nbsp;&nbsp;PM需要拥有缜密的产品逻辑思维，
+            <br>研究用户心理，负责产品的整个生命
+            <br>周期。</p>
+            <br>&nbsp;
+            <p> &nbsp;&nbsp;&nbsp;&nbsp;PM参与产品的UI和交互设计，为
+            <br>设计和开发确定产品原型，能够将
+            <br>产品变得有个性,操作变得舒适简单、
+            <br>自由。</p>
+            <br>&nbsp;
+            <p> &nbsp;&nbsp;&nbsp;&nbsp;PM需要一定的文档能力和沟通能力，
+            <br>能够在团队合作的过程中跟各个角色
+            <br>进行有效沟通。</p>
+        </div>
+        <div class="AI"><img src="images/ai.png"></div>
+        <div class="内容6">AI/算法(AI/AIGO)</div>
+        <div class="内容7">"路漫漫其修远兮，非大毅力者不能"</div>
+        <div class="内容8">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;人工智能站在了风口，机器学习
+            <br>和深度学习是它的分支，是团队
+            <br>仍在探索的方向。</p>
+            <br>&nbsp;
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;当下AI技术的应用涉及到图像处理、
+            <br>自然语言处理、推荐系统和无人驾驶
+            <br>等领域。</p>
+            <br>&nbsp;
+            <p>AI的核心就是算法和性能。充满科技感
+            <br>的背后，是大量的数学统计理论
+            <br>和计算机知识。</p>
+        </div>
+        <div class="sacurity"><img src="images/安全工程狮.png"></div>
+        <div class="内容9">安全攻城狮(Sacurity)</div>
+        <div class="内容10">"我们需要的不是脚本小子，<br>&nbsp;&nbsp;&nbsp;&nbsp;而是对底层原理了如指掌。"</div>
+        <div class="内容11">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;主要涉及网络攻防、漏洞挖掘，能够代
+            <br>表团队参加CTF安全赛事。</p>
+            <br>&nbsp;
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;互联网安全从其本质上来讲其实就是
+            <br>互联网上的信息安全。</p>
+            <br>&nbsp;
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;网络安全攻城狮是拥有扎实基础的
+            <br>SuperHacker,同时具有强大的自学能力。</p>
+            <br>&nbsp;
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;网络安全攻城狮能够识别IT系统的
+            <br>优缺点。并且了解黑客以及网络犯罪
+            <br>手段,且精通网络安全技术:包括服务
+            <br>漏洞扫描、程序漏洞分析检测、
+            <br>病毒木马防范等。</p>
+        </div>
+        <div class="unity"><a id="abus"></a><img src="images/unity.png"></div>
+        <div class="内容12">Unity 多边形(Unity Game)</div>
+        <div class="内容13">"TECH OTAKUS <br>SAVE THE WORLD"</div>
+        <div class="内容14">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;对游戏开发的热爱和追求，使我们
+                <br>相聚于此。</p>
+                <br>&nbsp;
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;涉及计算机图形学的学习，我们使用
+            <br>物理模拟引擎Unity开发我们所追求的
+            <br>世界，一个故事，一个角色，在我们的
+            <br>世界里改变现实，创造新的可能，我们
+            <br>参与，我们改变，我们创造...</p>
+        </div>
+        <div class="about_us"><img src="images/about us block.png"></div>
+        <div class="about_us_div"><img src="images/aboutus_div.png"></div>
+        <div class="about_us_bottom"><a id="connectus"></a><img src="images/about us_底纹.png"></div>
+        <div class="about_us_insect"><img src="images/ladybug.png"></div>
+        <div class="about_us_butterfly"><img src="images/hudie.png"></div>
+        <div class="about_us_title1"><strong>Diversity</strong></div>
+        <div class="about_us_title2"><strong>Speech</strong></div>
+        <div class="about_us_title3"><strong>30 +H</strong></div>
+        <div class="about_us_content1">&nbsp;&nbsp;&nbsp;&nbsp;多元化是我们<br>的特色。在这里，<br>你可以拥有多种<br>方向选择，前后<br>端、安全、AI、<br>产品/设计、游<br>戏等。</div>
+        <div class="about_us_content2">&nbsp;&nbsp;&nbsp;&nbsp;每周我们会举<br>行一次技术例会，<br>用来汇报我们的<br>学习内容，供成<br>员之间交流学习。</div>
+        <div class="about_us_content3">&nbsp;&nbsp;&nbsp;&nbsp;耐心、毅力是我<br>们必备的品质，每<br>周我们会至少花30<br>小时在实验室中。<br>以保证技术的精进。</div>
+        <div class="contact_us_title"><img src="images/联系我们.png"></div>
+        <div class="contact_us_ltr"><img src="images/left_tree.png"></div>
+        <div class="contact_us_rtr"><img src="images/树.png"></div>
+        <div class="contact_us_leaf"><img src="images/yezi1.png"></div>
+        <div class="contact_us_chameleon"><a id="QAA"></a><img src="images/蓝色变色龙.png"></div>
+        <div class="contact_us_content">
+            <p>•热爱计算机，具有geek精神，喜欢DIY，动手能力较强</p>
+            <br>&nbsp;
+            <p>•有编程/算法/硬件基础为佳(有作品可附上)</p>
+            <br>&nbsp;
+            <p>•有足够的空余时间，热爱思考，对事物有自己的见解</p>
+            <br>&nbsp;
+            <p>&nbsp;ps:非新思路统招只有通过发送邮件自我介绍
+                <br>&nbsp;后，收到邮件回执后才会被允许进群,在读学
+                <br>&nbsp;生,都可邮件到newthread_geek@outlook.com报
+                <br>&nbsp;名加入.(信中需备注个人基本信息以及意向方
+                <br>&nbsp;向,此招新活动为长期招新)</p>
+        </div>
+        <div class="more_question_bg"><img src="images/lansebeijing.png"></div>
+        <div class="more_question_title"><img src="images/gengduo.png"></div>
+        <div class="more_question_content">
+            <p>1.什么是Geek(极客)？Geek精神又是什么？</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;拥有好奇之心，改变之力，爱钻研，能折腾。</p>
+            <br>&nbsp;
+            <p>2.招新是安排在什么时间？</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;按照惯例，正式招新时间是在9月下旬~10月上旬，不过今年会有一些改动，笔试地点一般在9号教学楼。
+            <br>如果想要了解我们，可以加入我们的QQ群，招新具体的安排/变动会在招新群通知。</p>
+            <br>&nbsp;
+            <p>3.我们有考核吗？考核流程是怎样的呀？</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;嗯...我们一共有一轮笔试和两轮面试。权衡技术、经验和学习能力，第一轮是一些视野性的题目，
+            <br>淘汰率并不高。第二轮单独面试，根据你的笔试提出技术相关的问题、兴趣爱好、个人看法。最后
+            <br>一轮群面，首先问及时间分配上的问题，其次也会向你提出各种奇怪的问题。这一轮中许多题目其
+            <br>实并不难，也无标准答案，重在考察同学们在压力下的逻辑思维。全部通过成为预备成员啦。</p>
+            <br>&nbsp;
+            <p>4.考核是怎样的形式？</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在考核期间每人会拥有一位'长者'带你入门，学习技术与知识，交流经验与想法。完成每周的新人
+            <br>任务后再进行一次考核筛选后就可以成为Geek组正式成员啦！在考核期必须满足每周30个小时在实验
+            <br>室哦,所以考核期也不可以懈怠哦！</p>
+            <br>&nbsp;
+            <p>5.进入Geek组之后都有什么福利呢？ </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1对1的新人指引，每一个成员都有会一个mentor, 带你初入门槛，与你一同成长，组内管理较宽松,
+            <br>在尊重其他人的前提下可以尽情发挥自己的个性。打破平淡，与同样疯狂的人把疯狂的idea实现，磨
+            <br>砺耐性、培养思维、成就梦想。Lab设备/网络资源充足，闲暇之余也有组织活动。更有许多的故事等
+            <br>你来听~</p>
+            <br>&nbsp;
+            <p>6.进入团队会影响我的日常学习吗？</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你要知道大学是一个可以自由安排自己学习生活的地方。如果你想在上课之余充实自己、激励自己，
+            <br>最好的方法就是和比自己更优秀的人在一起。团队不缺优秀的人，而我们也期待同样优秀的你，让我
+            <br>们一起前进！小组里也有不少保研, 考研的前辈们, 大部分都能找到一个平衡点, 而且团队的经历对你
+            <br>日后读研, 工作都大有裨益。</p>
+            <br>&nbsp;
+            <p>7.老师以及学长学姐们的期望是什么?</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们希望你有很强的自学能力，同时关注新事物、新技术，喜欢挑战，逻辑性强，善于和各种文化
+            <br>的人合作.“每个人都可以做自己想做的事情，每个人的方向不一样。如果你想做产品或有不错的 idea，
+            <br>那么就可以找志同道合的人一起合作。”</p>
+        </div>
+        <div class="contact_us_QQ"><a href="https://jq.qq.com/?_wv=1027&k=ke0bdvwZ"><img src="images/QQ.png"></a></div>
+        <div class="contact_us_email">
+            <a id="btn"><img src="images/email.png"></a>
+            <script>
+                var btn=document.getElementById("btn");
+                btn.onclick=function(){
+                    alert("邮箱地址已复制到剪贴板");
+                }
+            </script>
+        </div>
+        <div class="contact_us_github"><a href="https://github.com/ntgeek"><img src="images/github.png"></a></div>
+    </body>
 </html>
